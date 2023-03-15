@@ -1,7 +1,7 @@
 <?php
 class Counter{
     private $_count;
-    public function __contruct(){
+    public function __construct(){
         $this->_count = $this->get_count();
     }
     public function get_count(){
